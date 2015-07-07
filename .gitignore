@@ -59,7 +59,7 @@ public class ArticleLikeAdapter extends BaseAdapter {
 	public long getItemId(int position) {
 		return list.indexOf(list.get(position));
 	}
-
+ 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 
