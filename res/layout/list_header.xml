@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+  >
+    <FrameLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView 
+            android:id="@+id/head_arrow"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:src="@drawable/indicator_arrow" />
+        <ProgressBar 
+            android:id="@+id/head_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/custom_bg"
+            android:visibility="invisible"
+            
+            
+            />
+    </FrameLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView 
+        android:id="@+id/heade_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新"
+        android:textColor="#f00"
+        android:textSize="23sp"/>
+    <TextView 
+        android:id="@+id/head_lasttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015-06-23 18:00"/>
+</LinearLayout>
+</LinearLayout>

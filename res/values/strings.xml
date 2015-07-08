@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">文化平台</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_motify_password">修改密码</string>
+    <string name="save_text">保存</string>
+    <string name="back_btn_text">返回</string>
+    <string name="change_pass_text">修改密码</string>
+    <string name="input_first_pwd">请输入原密码</string>
+    <string name="input_second_pwd">请输入新密码</string>
+    <string name="input_confirm_pwd">请确认新密码</string>
+    <string name="title_activity_article_like">文章点赞</string>
+
+</resources>
