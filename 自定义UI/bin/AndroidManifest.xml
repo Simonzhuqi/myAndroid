@@ -26,6 +26,10 @@
             android:name="com.itrun.zhuqi.ui.SiderMeunActivity"
             android:label="@string/title_activity_sider_meun" >
         </activity>
+        <activity
+            android:name="com.itrun.zhuqi.ui.TweenAnimationActivity"
+            android:label="@string/title_activity_tween_animation" >
+        </activity>
     </application>
 
 </manifest>
