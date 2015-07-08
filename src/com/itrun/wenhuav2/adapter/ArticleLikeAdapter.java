@@ -174,12 +174,10 @@ public class ArticleLikeAdapter extends BaseAdapter {
 					if(obj.getBoolean(("success"))){
 						currentIv.setImageResource(R.drawable.dianzan_red);
 						currentTv.setText(list.get(currentPosition).getLikeCount()+1+"");
-						Toast.makeText(context, "点赞成功", Toast.LENGTH_SHORT).show();
 						flags[currentPosition] = true;
 					}else{
 						currentIv.setImageResource(R.drawable.dianzan_red);
 						currentTv.setText(list.get(currentPosition).getLikeCount()+1+"");
-						Toast.makeText(context, "点赞成功", Toast.LENGTH_SHORT).show();
 						flags[currentPosition]= true;
 					}					
 					
