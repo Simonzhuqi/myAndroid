@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".SiderMeunActivity" >
+    <LinearLayout
+        android:id="@+id/meun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0000CC" 
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF00CC" 
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
