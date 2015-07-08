@@ -1,5 +1,9 @@
 package com.itrun.wenhuav2.utils;
-
+/**
+ * 限定文字的长度，如果超过18，后面加省略号
+ * @author Administrator
+ *
+ */
 public class StringUtils {
 	public static String titleLimit(String str){
 		

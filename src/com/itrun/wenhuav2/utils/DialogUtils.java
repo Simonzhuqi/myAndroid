@@ -11,11 +11,11 @@ public class DialogUtils {
 	 * @param dialog    ProgressDialog
 	 * @return
 	 */
-	public static ProgressDialog CreateDialog(Context context, ProgressDialog dialog)
-	{
-		if(dialog == null)
-			dialog = ProgressDialog.show(context, "", "正在加载中，请稍后...", true, true); 
-		return dialog;
+	public static ProgressDialog createDialog(Context context, ProgressDialog dialog){
+	
+			dialog = ProgressDialog.show(context, "", "正在加载中，请稍后...", true, true);
+			dialog.setCanceledOnTouchOutside(false);
+			return dialog;
 	}
 	
 }

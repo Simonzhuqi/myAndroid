@@ -17,7 +17,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.itrun.wenhuav2.R;
 import com.itrun.wenhuav2.entity.Article;
@@ -31,7 +30,7 @@ public class ArticleLikeAdapter extends BaseAdapter {
 	private ViewHolder holder;
 	private Context context;
 	private Article article;
-	private boolean[] flags;
+	private boolean[] flags;//true 已被点赞     false 未被点赞
 	private ImageView currentIv;
 	private TextView currentTv;
 	private int currentPosition;
