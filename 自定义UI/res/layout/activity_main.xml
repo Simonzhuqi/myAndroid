@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_horizontal"
     tools:context=".MainActivity" >
 
     <TextView
@@ -35,6 +34,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="补间动画效果"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会伸缩的侧滑菜单"
+        android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </LinearLayout>

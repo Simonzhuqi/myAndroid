@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_sider_meun">SiderMeunActivity</string>
     <string name="title_activity_tween_animation">TweenAnimationActivity</string>
+    <string name="title_activity_sliding_menu">SlidingMenuActivity</string>
 
 </resources>

@@ -14,6 +14,7 @@ public class MainActivity extends Activity implements OnClickListener{
 
 	private TextView siderMeun;
 	private TextView tweenanimation;
+	private TextView slidingmenu;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,9 @@ public class MainActivity extends Activity implements OnClickListener{
 		
 		tweenanimation = (TextView)findViewById(R.id.textView4);
 		tweenanimation.setOnClickListener(this);
+		
+		slidingmenu = (TextView)findViewById(R.id.textView5);
+		slidingmenu.setOnClickListener(this);
 	}
 
 	@Override
@@ -44,9 +48,12 @@ public class MainActivity extends Activity implements OnClickListener{
 		case R.id.textView4:
 			startActivity(new Intent(MainActivity.this,TweenAnimationActivity.class));
 			break;
+		
+		case R.id.textView5:
+		startActivity(new Intent(MainActivity.this,SlidingMenuActivity.class));
+		break;
+	
 		}
-		
-		
 	}
 
 }

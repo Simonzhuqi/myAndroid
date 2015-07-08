@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="17" />
 
     <application
@@ -29,6 +29,10 @@
         <activity
             android:name="com.itrun.zhuqi.ui.TweenAnimationActivity"
             android:label="@string/title_activity_tween_animation" >
+        </activity>
+        <activity
+            android:name="com.itrun.zhuqi.ui.SlidingMenuActivity"
+            android:label="@string/title_activity_sliding_menu" >
         </activity>
     </application>
 

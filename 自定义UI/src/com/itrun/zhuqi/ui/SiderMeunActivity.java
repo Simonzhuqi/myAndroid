@@ -39,6 +39,7 @@ public class SiderMeunActivity extends Activity implements OnTouchListener{
 		setContentView(R.layout.activity_sider_meun);
 		setViews();
 		content.setOnTouchListener(this); 
+
 	}
 
 	/*
@@ -50,16 +51,16 @@ public class SiderMeunActivity extends Activity implements OnTouchListener{
 		window.getDefaultDisplay().getMetrics(outMetrics);
 		screenWidth = outMetrics.widthPixels;
 
-
 		menu = (LinearLayout)findViewById(R.id.meun);
 		content = (LinearLayout)findViewById(R.id.content);
 
 		//菜单宽度设为屏幕宽度的80%
 		menuParams = (LinearLayout.LayoutParams) menu.getLayoutParams();
-		menuParams.width = (int) (screenWidth * weitgh);
+		menuParams.width = (int)(screenWidth * weitgh);
 		//内容宽度等于屏幕宽度
 		contentParams = (LinearLayout.LayoutParams) content.getLayoutParams();
 		contentParams.width = screenWidth;
+		
 		// 左边缘的值赋值为menu宽度的负数 
 		leftEdge = -menuParams.width;
 		// menu的leftMargin设置为左边缘的值，这样初始化时menu就变为不可见
@@ -91,7 +92,9 @@ public class SiderMeunActivity extends Activity implements OnTouchListener{
 	            } else if (menuParams.leftMargin > rightEdge) {  
 	                menuParams.leftMargin = rightEdge;  
 	            }  
+	           
 	            menu.setLayoutParams(menuParams);  
+	            	            
 	            break;  
 	        case MotionEvent.ACTION_UP:  
 	            // 手指抬起时，进行判断当前手势的意图，从而决定是滚动到menu界面，还是滚动到content界面  
@@ -253,6 +256,4 @@ public class SiderMeunActivity extends Activity implements OnTouchListener{
 	            e.printStackTrace();  
 	        }  
 	    }  
-
-
 }
