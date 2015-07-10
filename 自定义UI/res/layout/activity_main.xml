@@ -45,4 +45,12 @@
         android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment的界面"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
 </LinearLayout>

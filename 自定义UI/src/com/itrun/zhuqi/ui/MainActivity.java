@@ -15,20 +15,24 @@ public class MainActivity extends Activity implements OnClickListener{
 	private TextView siderMeun;
 	private TextView tweenanimation;
 	private TextView slidingmenu;
+	private TextView fragmenta;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		siderMeun = (TextView)findViewById(R.id.textView1);
 		siderMeun.setOnClickListener(this);
-		
+
 		tweenanimation = (TextView)findViewById(R.id.textView4);
 		tweenanimation.setOnClickListener(this);
-		
+
 		slidingmenu = (TextView)findViewById(R.id.textView5);
 		slidingmenu.setOnClickListener(this);
+		
+		fragmenta = (TextView)findViewById(R.id.textView6);
+		fragmenta.setOnClickListener(this);
 	}
 
 	@Override
@@ -44,15 +48,19 @@ public class MainActivity extends Activity implements OnClickListener{
 		case R.id.textView1:
 			startActivity(new Intent(MainActivity.this,SiderMeunActivity.class));
 			break;
-			
+
 		case R.id.textView4:
 			startActivity(new Intent(MainActivity.this,TweenAnimationActivity.class));
 			break;
-		
+
 		case R.id.textView5:
-		startActivity(new Intent(MainActivity.this,SlidingMenuActivity.class));
-		break;
-	
+			startActivity(new Intent(MainActivity.this,SlidingMenuActivity.class));
+			break;
+
+		case R.id.textView6:
+			startActivity(new Intent(MainActivity.this,FragmentActivity.class));
+			break;
+
 		}
 	}
 

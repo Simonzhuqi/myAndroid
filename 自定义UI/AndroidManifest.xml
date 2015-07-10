@@ -34,6 +34,10 @@
             android:name="com.itrun.zhuqi.ui.SlidingMenuActivity"
             android:label="@string/title_activity_sliding_menu" >
         </activity>
+        <activity
+            android:name="com.itrun.zhuqi.ui.FragmentActivity"
+            android:label="@string/title_activity_fragment" >
+        </activity>
     </application>
 
 </manifest>
